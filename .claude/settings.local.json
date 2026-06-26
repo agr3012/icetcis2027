@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"G:/Other computers/My MacBook Air \\(1\\)/RRU\" -maxdepth 4 -iname \"*logo*\" 2>/dev/null | head -50)",
+      "Bash(cp \"G:/Other computers/My MacBook Air \\(1\\)/RRU/Design/RRU-Logo12.png\" \"G:/Other computers/My MacBook Air \\(1\\)/RRU/Events/2026/Conference/website/assets/img/rru-logo.png\")",
+      "Bash(cp \"G:/Other computers/My MacBook Air \\(1\\)/RRU/Design/SITAICS-Logo_Page_1_Image_0001.png\" \"G:/Other computers/My MacBook Air \\(1\\)/RRU/Events/2026/Conference/website/assets/img/sitaics-logo.png\")"
+    ]
+  }
+}
