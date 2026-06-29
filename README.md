@@ -13,13 +13,16 @@ or any standard static host later.
 website/
   index.html              Home
   tracks.html             3 technical tracks + sub-topics
-  call-for-papers.html    CFP, dates, submission & review process
+  call-for-papers.html    CFP, submission & review process
+  important-dates.html    Full timeline of key dates
+  keynote-speakers.html   Placeholder — speakers to be announced
   committee.html          Patron / Organizing / Steering / Advisory / TPC
-  registration.html       Indicative fee structure
-  venue.html              Venue & hybrid participation
+  registration.html       Fee structure — domestic, international, early bird
+  sponsorship.html        Sponsorship tiers & benefits
+  venue.html              Venue, hybrid participation, nearby places
   contact.html            Contact details
   css/style.css           Shared stylesheet (navy + gold theme)
-  js/main.js              Mobile nav toggle only — no external dependencies
+  js/main.js              Mobile nav toggle + scroll-to-top — no external dependencies
   assets/img/             RRU and SITAICS official logos
 ```
 
