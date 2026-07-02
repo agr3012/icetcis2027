@@ -78,9 +78,11 @@ header.site-header{
 .brand-text .school{font-size:0.68rem;color:var(--ink-soft);letter-spacing:.03em;}
 
 .conf-mark{
-  display:flex;flex-direction:column;align-items:flex-start;
+  display:flex;flex-direction:row;align-items:center;gap:14px;
   font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;
 }
+.conf-seal{height:72px;width:72px;flex-shrink:0;}
+.conf-text{display:flex;flex-direction:column;align-items:flex-start;}
 .conf-mark .wordmark{
   font-size:1.55rem;font-weight:800;letter-spacing:.06em;color:var(--navy-900);
 }
