@@ -239,10 +239,14 @@ table.fee-table td.amount.early{color:#1f7a52;}
 
 /* Sponsorship tiers */
 .tier-card{border-top:4px solid var(--line);position:relative;}
+.tier-card.tier-diamond{border-top-color:var(--navy-900);border-top-width:6px;}
 .tier-card.tier-platinum{border-top-color:#5b6b7d;}
 .tier-card.tier-gold{border-top-color:var(--gold-500);}
 .tier-card.tier-silver{border-top-color:#9aa6b3;}
 .tier-card.tier-bronze{border-top-color:#9a6b3a;}
+.tier-featured{background:linear-gradient(135deg,#fdf8ea 0%,#ffffff 60%);border-color:var(--gold-500);}
+.tier-featured .tier-name{color:var(--navy-900);font-size:0.88rem;}
+.tier-featured .tier-price{font-size:1.7rem;}
 .tier-card .tier-name{
   font-family:"Trebuchet MS",sans-serif;font-size:0.78rem;text-transform:uppercase;letter-spacing:.1em;
   font-weight:700;color:var(--ink-soft);
