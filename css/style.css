@@ -136,6 +136,11 @@ nav.mainnav a:hover,nav.mainnav a.active{background:var(--navy-700);color:var(--
 .hero .meta-item .value{font-size:1.02rem;font-weight:700;color:#fff;}
 .hero .cta-row{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap;}
 
+.hero-layout{display:flex;align-items:center;gap:48px;}
+.hero-text{flex:1;min-width:0;}
+.hero-emblem{flex-shrink:0;display:flex;align-items:center;justify-content:center;padding-right:20px;}
+.hero-emblem img{width:220px;height:220px;filter:drop-shadow(0 0 28px rgba(201,162,39,0.4)) brightness(1.05);}
+
 .btn{
   display:inline-block;font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;
   font-weight:700;font-size:0.88rem;letter-spacing:.03em;padding:13px 26px;border-radius:4px;
@@ -330,6 +335,7 @@ footer.site-footer a:hover{color:var(--gold-400);}
   .nav-toggle{display:block;}
   .hero h1{font-size:1.8rem;}
   .hero{padding:46px 0 40px;}
+  .hero-emblem{display:none;}
   .scroll-top{right:16px;bottom:16px;width:42px;height:42px;}
 }
 
